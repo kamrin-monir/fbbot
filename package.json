@@ -1,0 +1,34 @@
+{
+  "name": "fbbot",
+  "version": "1.0.0",
+  "description": "testbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine --verbose",
+    "start_testmybot": "page_token=test verify_token=test node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamrin-monir/fbbot.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "kamrin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamrin-monir/fbbot/issues"
+  },
+  "homepage": "https://github.com/kamrin-monir/fbbot#readme",
+  "dependencies": {
+    "botkit": "^0.5.2",
+    "dotenv": "^4.0.0",
+    "testmybot": "^0.1.4"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "testmybot": "^0.1.4",
+    "testmybot-fbmock": "^0.1.4"
+  }
+}
